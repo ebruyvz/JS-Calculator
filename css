@@ -1,0 +1,68 @@
+body {
+  background: black;
+}
+
+#calculator {
+  width: 230px;
+  margin: auto;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  color: #FFD700;
+}
+
+#display {
+  color: white;
+  text-align: right;
+  font-size: 40px;
+  width: 210px;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background: #3D3D3D;
+  color: white;
+}
+
+button:hover {
+  background: #F5F5F5;
+  color: #3D3D3D;
+}
+
+button:active {
+  background: #242424;
+  color: white;
+}
+
+#clear, #plus_minus, #percent {
+  background: grey;
+  color: black;
+}
+
+#clear:hover, #plus_minus:hover, #percent:hover {
+  background: #6B6B6B;
+}
+
+#clear:active, #plus_minus:active, #percent:active {
+  background: #5C5C5C;
+}
+
+#divide, #multiply, #subtract, #add, #equals {
+  background: orange;
+  color: white;
+}
+
+#divide:hover, #multiply:hover, #subtract:hover, #add:hover, #equals:hover {
+  background: #FF8C00;
+}
+
+#divide:active, #multiply:active, #subtract:active, #add:active, #equals:active {
+  background: #F05E16;
+}
